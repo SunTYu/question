@@ -10,7 +10,7 @@
 把对象的属性拷贝到另一个对象自己改  
 `var targetObj = JSON.parse(JSON.stringify(copyObj))`  
 通过JSON完成拷贝不会拷贝对象中的函数，以及原型上的属性和函数，单纯的拷贝数据:)
-6. data中数组中的对象只有一个属性时，返回的是__ob__
+6. data中的对象的属性少于五个，访问对象得到的是Observer，超过五个时得到正常的对象
 ## 大问题
 1. 是否考虑用户信息持久化保存在cookie里还是localstorage里还是sessionstorage以及安全问题
 2. 前端权限管理根据角色动态添加路由  
