@@ -12,6 +12,8 @@
 通过JSON完成拷贝不会拷贝对象中的函数，以及原型上的属性和函数，单纯的拷贝数据:)
 6. vue中的__ob__是什么  
 7. element-ui el-input回车刷新页面，在el-form中加@submit.native.prevent阻止原始事件
+8. element-ui el-table中使用v-if不会重新渲染表格  
+用this.$set(obj,key,value)代替直接修改某个数据的的值，以后遇到不能动态渲染的用$set就完事了噢
 ## 大问题
 1. 是否考虑用户信息持久化保存在cookie里还是localstorage里还是sessionstorage以及安全问题
 2. 前端权限管理根据角色动态添加路由  
