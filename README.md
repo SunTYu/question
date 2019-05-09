@@ -15,6 +15,7 @@
 8. element-ui el-table中使用v-if不会重新渲染表格  
 用this.$set(obj,key,value)代替直接修改某个数据的的值，以后遇到不能动态渲染的用$set就完事了噢
 9. 多维数组合并成一维数组
+10. webpack热更新啥都配的好好的修改html不会自动刷新，然后莫名其妙的又好了
 ## 大问题
 1. 是否考虑用户信息持久化保存在cookie里还是localstorage里还是sessionstorage以及安全问题
 2. 前端权限管理根据角色动态添加路由  
